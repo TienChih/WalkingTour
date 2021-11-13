@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="39.969pt" height="15.452pt" viewBox="0 0 39.969 15.452">
+<g enable-background="new">
+<path transform="matrix(1,0,0,-1,5.811,2.191)" d="M 1.99255 0 C 1.99255 1.10046 1.10046 1.99255 0 1.99255 C -1.10046 1.99255 -1.99255 1.10046 -1.99255 0 C -1.99255 -1.10046 -1.10046 -1.99255 0 -1.99255 C 1.10046 -1.99255 1.99255 -1.10046 1.99255 0 Z M 0 0 "/>
+<path transform="matrix(1,0,0,-1,5.811,2.191)" stroke-width=".3985" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 1.99255 0 C 1.99255 1.10046 1.10046 1.99255 0 1.99255 C -1.10046 1.99255 -1.99255 1.10046 -1.99255 0 C -1.99255 -1.10046 -1.10046 -1.99255 0 -1.99255 C 1.10046 -1.99255 1.99255 -1.10046 1.99255 0 Z M 0 0 "/>
+<path transform="matrix(1,0,0,-1,5.811,2.191)" stroke-width=".3985" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 0 0 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 -.00000023841859 15.452)" font-size="9.9626" font-family="CMR10"><tspan y="-3.321" x="3.321">0</tspan></text>
+<path transform="matrix(1,0,0,-1,5.811,2.191)" d="M 30.33936 0 C 30.33936 1.10046 29.44728 1.99255 28.3468 1.99255 C 27.24634 1.99255 26.35425 1.10046 26.35425 0 C 26.35425 -1.10046 27.24634 -1.99255 28.3468 -1.99255 C 29.44728 -1.99255 30.33936 -1.10046 30.33936 0 Z M 28.3468 0 "/>
+<path transform="matrix(1,0,0,-1,5.811,2.191)" stroke-width=".3985" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 30.33936 0 C 30.33936 1.10046 29.44728 1.99255 28.3468 1.99255 C 27.24634 1.99255 26.35425 1.10046 26.35425 0 C 26.35425 -1.10046 27.24634 -1.99255 28.3468 -1.99255 C 29.44728 -1.99255 30.33936 -1.10046 30.33936 0 Z M 28.3468 0 "/>
+<path transform="matrix(1,0,0,-1,5.811,2.191)" stroke-width=".3985" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 28.3468 0 L 28.3468 0 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 15.452)" font-size="9.9626" font-family="CMR10"><tspan y="-3.321" x="31.667">1</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="125.008pt" height="19.072pt" viewBox="0 0 125.008 19.072">
+<g enable-background="new">
+<path transform="matrix(1,0,0,-1,5.811,5.811001)" stroke-width=".3985" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 0 0 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 -.00000047683718 19.072003)" font-size="4.9813" font-family="CMR5"><tspan y="-12.015" x="4.808">[</tspan></text>
+<path transform="matrix(1,0,0,-1,5.811,5.811001)" stroke-width=".3985" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 0 0 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 -.00000023841859 19.072)" font-size="9.9626" font-family="CMR10"><tspan y="-3.321" x="3.321">0</tspan></text>
+<path transform="matrix(1,0,0,-1,5.811,5.811001)" stroke-width=".3985" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 113.38724 0 L 113.38724 0 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 19.072003)" font-size="4.9813" font-family="CMR5"><tspan y="-12.015" x="118.194">]</tspan></text>
+<path transform="matrix(1,0,0,-1,5.811,5.811001)" stroke-width=".3985" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 113.38724 0 L 113.38724 0 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 -.0000076293949 19.072)" font-size="9.9626" font-family="CMR10"><tspan y="-3.321" x="116.706">1</tspan></text>
+<path transform="matrix(1,0,0,-1,5.811,5.811001)" stroke-width=".3985" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 113.38724 0 "/>
+</g>
+</svg>
