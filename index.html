@@ -44,15 +44,7 @@
 						
 					</section>
 					
-					<section data-auto-animate>
-						<h3>What are <strong style="color:red;">Graphs</strong>?</h3>
-						<p>
-							A <strong style="color:red;">graph</strong> \(G\) is pair of sets \((V, E)\).
-							Where \(V\) is a set of <strong style="color:red;">vertices</strong>.
-							And \(E\) is a set of <strong style="color:red;">edges</strong> between vertices.
-						</p>
-						
-					</section>
+					
 					
 					<section data-auto-animate>
 						<h3>What are <strong style="color:red;">Graphs</strong>?</h3>
@@ -81,7 +73,7 @@
 					<section data-auto-animate>
 						<h3>What is a  <strong style="color:red;">walk</strong>?</h3>
 						<p>
-							Given a <strong style="color:red;">graph</strong> \(G\) a <strong style="color:red;">walk</strong> is a sequence of vertices \(v_0,\ldots, v_n\), such that \(v_i, v_{i+1}\) are adjacent.
+							Given a <strong style="color:red;">graph</strong> \(G\) a <strong style="color:red;">walk</strong> is a sequence of vertices \(v_0,\ldots, v_n\), such that \(v_i, v_{i+1}\) are adjacent (connected with an edge).
 
 
 							<p style="font-size: 30px;">
@@ -164,16 +156,22 @@
 
 
 				<section>
-					<img src="img/ContractibleWalk.svg" width="45%"><br>
+					<img src="img/ContractibleWalk.svg" width="35%"><br>
 
 					<p>
 						Can I find a shorter equivalent walk to \(dghif\)?
-					</p>	
+						<ol>
+							<li style="font-size: 20px;">Delete (add) backtracks.</li>
+							<li style="font-size: 20px;">Spider-Move.</li>
+							<li style="font-size: 20px;">Fix endpoints.</li>
+						</ol>	
+					</p>
+
 
 				</section>
 
 				<section>
-					<img src="img/shortergif.gif" width="45%"><br>
+					<img src="img/shortergif.gif" width="35%"><br>
 
 					<p>
 						\(dghif\equiv def\).
@@ -183,10 +181,15 @@
 
 
 				<section>
-					<img src="img/nonContractibleWalk.svg" width="45%"><br>
+					<img src="img/nonContractibleWalk.svg" width="35%"><br>
 
 					<p>
 						Can I find a shorter equivalent walk to \(dabcf\)?
+						<ol>
+							<li style="font-size: 20px;">Delete (add) backtracks.</li>
+							<li style="font-size: 20px;">Spider-Move.</li>
+							<li style="font-size: 20px;">Fix endpoints.</li>
+						</ol>	
 					</p>	
 
 				</section>
@@ -195,7 +198,10 @@
 				<section>
 					<section data-auto-animate>
 						<p>
-							Given walks \(W=v_0,\ldots, \color{red}{v_n}, U=\color{red}{v_n}, w_1, \ldots, w_m\), the <strong style="color:red;">concactenation</strong>  of \(W\) and \(U\) is \(W*U=v_0,\ldots,\color{red}{v_n},\ldots, w_m.\)
+							<img src="img/Concact1.svg" width="30%"><img src="img/Concact2.svg" width="30%"><img src="img/Concact3.svg" width="30%"><br>
+
+							\(\color{blue}{abx}*\color{red}{xcde}=\color{purple}{abxcde}.\)
+
 						</p>	
 
 					</section>
@@ -222,7 +228,7 @@
 					<img src="img/Contract.svg" width="45%">
 
 					<p>
-						Can you find a shortest walk equivalent to \(W=abcdea\)?
+						Can you find a shorter walk equivalent to \(W=abcdea\)?
 					</p>	
 
 
@@ -252,11 +258,74 @@
 
 				<section>
 
-					<img src="img/Torsion.gif" width="45%">
+					<section data-auto-animate>
+						<img src="img/step1.svg" width="45%" data-id="image">
 
-					<p>
-						\(W^2\equiv a!\)
-					</p>	
+						<p data-id="prose">
+							\[W^2\equiv \color{red}{abcdea}*\color{blue}{abcdea}\]
+
+						</p>	
+					</section>
+
+					<section data-auto-animate>
+						<img src="img/step2.svg" width="45%" data-id="image">
+
+						<p data-id="prose">
+							\[W^2\equiv \color{red}{abcdea}*\color{blue}{abcdea}\equiv \color{red}{abxa}*\color{blue}{abcdea}\]
+
+						</p>	
+					</section>	
+					<section data-auto-animate>
+						<img src="img/step3.svg" width="45%" data-id="image">
+
+						<p data-id="prose">
+							\[W^2\equiv\color{red}{abxa}*\color{blue}{abcdea}\equiv \color{red}{abxa}*\color{blue}{axea}\]
+
+
+						</p>	
+					</section>	
+
+					<section data-auto-animate>
+						<img src="img/step4.svg" width="45%" data-id="image">
+
+						<p data-id="prose">
+							\[W^2\equiv \color{red}{ab\underline{xa}}\color{blue}{\underline{x}ea}\equiv \color{red}{ab\underline{x}}\color{blue}{ea}\]
+							
+
+						</p>	
+					</section>	
+
+					<section data-auto-animate>
+						<img src="img/step5.svg" width="45%" data-id="image">
+
+						<p data-id="prose">
+							\[W^2\equiv \color{red}{ab\underline{x}}\color{blue}{ea}\equiv \color{red}{ab\underline{a}}\color{blue}{ea}\]
+							
+
+						</p>	
+					</section>	
+
+					<section data-auto-animate>
+						<img src="img/step6.svg" width="45%" data-id="image">
+
+						<p data-id="prose">
+							\[W^2\equiv \color{red}{\underline{aba}}\color{blue}{ea}\equiv \color{red}{\underline{a}}\color{blue}{ea}\]
+							
+
+						</p>	
+					</section>	
+
+					<section data-auto-animate>
+						<img src="img/step7.svg" width="45%" data-id="image">
+
+						<p data-id="prose">
+							\[W^2\equiv \color{red}{\underline{a}}\color{blue}{\underline{ea}}\equiv \underline{a}!\]
+							
+
+						</p>	
+					</section>	
+
+					
 
 
 				</section>	
@@ -266,16 +335,34 @@
 
 
 				<section>
+
+					<section data-auto-animate>
+						<h3 style="color:blue;">
+							<strong >Homotopy</strong>
+						</h3>
+					
+					
+						<p>
+							<img src="img/coffeedonut.gif">
+							<br>
+							<q>
+								To a topologist, a coffee cup and a donut are the same thing.
+ 							</q>-Common Math Joke.
+						</p>
+					</section>
+
 					<section data-auto-animate>
 						
 						<div class="container">
 
 						<div class="col" data-id="Top">
+							<h4 style="color:blue;"> Geometric Figures</h4>
 							<p>\(f, g\) are <strong style="color:blue;">homotopic</strong>, if there is <br> \(\varphi:X\times [0,1]\to Y\) <br> where \(\varphi|_{(-,0)}=f, \varphi|_{(-,1)}=g\).</p>
 							<img src="img/tophomotopy.svg" width="80%">
 						</div>
 							
 						<div class="col" data-id="Graph">
+							<h4 style="color:red;"> Graphs</h4>
 							<p>\(f, g\) are <strong style="color:red;">\(\times\)-homotopic</strong>, if there is <br> \(\varphi:G\times I_n\to H\) <br> where \(\varphi|_{(-,0)}=f, \varphi|_{(-,n)}=g\).</p>
 							<img src="img/graphhomotopy.svg" width="80%">
 						</div>
@@ -345,46 +432,18 @@
 					</section>
 
 
-					<section>
-						<h3>Student Work!</h3>
-					<div class="r-frame">
-								<p style="font-size: 30px;" ><strong>Definition</strong>:  <br> 
-									If \(f,g:G\to H\) differ on  one vertex, then they are a <strong style="color:red;">spider-pair</strong>.
-									
-								</p>
-					</div>
-					<br>
-					<div>
-						<div class="r-frame">
-							<p style="font-size: 30px;" ><strong>Definition</strong>:  <br> 
-								Given graphs \(G, H\), the <strong style="color:red;">spider-web</strong> \(W(G,H)\) is a graph where:
-							<ul>
-								<li style="font-size: 30px;">Vertices are homomorphisms \(v:G\to H\).</li>
-								<li style="font-size: 30px;">Vertices are adjacent if they are a <strong style="color:red;">spider-pair</strong>.</li>
-							</ul>
-									
-							</p>
-						</div>
-					</div>
 					
-					</section>
 			
 					<section data-auto-animate>
+						<h3>Student work</h3>
 				<img src="img/SpiderWeb.gif" width="30%" data-id="hom">
 				<br>
-				<img src="img/SpiderWeb.svg" width="60%" data-id="web">
+				<img src="img/SpiderWeb.svg" width="40%" data-id="web">
+				<h4>Funded by CURM and the NSF!</h4>
 			</section>
 
 
-			<section data-auto-animate>
-				<h3>More Student Work!</h3>
-				<p style="font-size: 25px;" class="r-frame" data-id="def"><strong>Definition</strong>:  <br> 
-				\(Null(G)\) denotes the symmetries of \(G\) <strong style="color:red;">\(\times\)-homotopic</strong> to the identity.
-				</p>
-				
-				<img src="img/NullG.gif" width="70%" data-id="Null">
-				
-			</section>
+			
 
 
 				
