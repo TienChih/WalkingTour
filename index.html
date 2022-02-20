@@ -29,6 +29,8 @@
 		</style>
 			<script async defer src="https://buttons.github.io/buttons.js"></script>
 
+		<script src="plugin/menu/menu.js"></script>
+
 
 
 	</head>
@@ -1717,22 +1719,8 @@
 			// pass other options into `MathJax.Hub.Config()`
 			TeX: { Macros: { RR: "{\\bf R}" } }
 		},
-		plugins: [ RevealMath  ]
-		});
-	</script>
-	<!--<script>
-    Reveal.initialize({
-        // ...
-        plugins: [ RevealChalkboard, RevealCustomControls ]
-        // ...
-    	});
-	</script>-->
-		<script>
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-	// ...
-    chalkboard: {
+
+		chalkboard: {
         boardmarkerWidth: 3,
         chalkWidth: 7,
         chalkEffect: 1.0,
@@ -1775,13 +1763,11 @@
   			}
   		]
     },
-    // ...
-    plugins: [ RevealChalkboard, RevealCustomControls ]
 
-});
- 
-
+		plugins: [ RevealMath, RevealChalkboard, RevealCustomControls, RevealMenu  ]
+		});
 	</script>
+	
 
 
 	</body>
